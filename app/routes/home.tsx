@@ -1,10 +1,23 @@
 import React from "react";
+import background from "../Components/background.jpg";
 
-export default function Home() {
+function Home() {
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
+    <div
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+        color: "white",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h1>🚴 Welcome to Steves Cycles</h1>
-      <p>This is your homepage working correctly!</p>
+      <p>This homepage is working correctly!</p>
 
       <button
         onClick={() => alert("Button is working!")}
@@ -20,3 +33,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
