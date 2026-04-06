@@ -42,7 +42,7 @@ export default function About() {
           </p>
 
           <p className="text-gray-600 leading-relaxed">
-            With a focus on convenience, Steve Does Bikes offers mobile repair services, bringing 
+            With a focus on convenience, I offer mobile repair services, bringing 
             professional bike maintenance directly to your home, workplace, or trailside.
           </p>
         </div>
