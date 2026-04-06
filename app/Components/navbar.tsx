@@ -41,7 +41,7 @@ export default function Navbar() {
                   <NavLink
                     to={to}
                     end={end}
-                    className="font-medium text-base sm:text-lg text-black hover:text-yellow-400 transition-colors duration-300"
+                    className="font-medium text-base sm:text-lg text-white hover:text-yellow-400 transition-colors duration-300"
                   >
                     {label}
                   </NavLink>
