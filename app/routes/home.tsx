@@ -1,6 +1,7 @@
 import React from "react";
 import background from "../Components/background.jpg";
 import { Wrench, Timer, Cog, Check } from "lucide-react";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -111,6 +112,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
+    
   );
 }
