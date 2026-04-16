@@ -4,12 +4,14 @@ import logo from "../Components/logo.jpg";
 
 export default function Navbar() {
   const location = useLocation();
+  
 
   const links = [
     { to: "/", label: "Home", end: true },
     { to: "/Services", label: "Services" },
     { to: "/About", label: "About" },
     { to: "/Contact", label: "Contact" },
+    { to: "/blog", label: "Blog"},
   ];
 
   return (
