@@ -9,7 +9,7 @@ export default function SignIn() {
     // TEMP login (no backend yet)
     localStorage.setItem("isAdmin", "true");
 
-    navigate("/admin/blog");
+    navigate("/Admin/blog");
   };
 
   return (

@@ -6,7 +6,7 @@ export default [
     route("Services","routes/Services.jsx"),
     route("Contact", "routes/Contact.jsx"),
     route("blog", "routes/blog.jsx" ),
-    route("admin/blog", "routes/AdminBlog.jsx"),
+    route("admin/blog", "routes/Adminblog.jsx"),
     route("signin", "routes/SignIn.jsx"),
 
 
